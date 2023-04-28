@@ -1,5 +1,5 @@
 import { Product } from "../db/models/ProductModel.js";
-import { uploadImage } from "../utils/cloudinary.js";
+import { deleteImage, uploadImage } from "../utils/cloudinary.js";
 
 export const getProducts = async (req, res, next) => {
   try {
@@ -72,13 +72,14 @@ export const deleteProduct = async(req,res,next)=>{
   const {id} = req.params;
   if(!id) return next(new Error("Product Id is required"));
   try{
-    await Product.findByIdAndDelete(id);
+    const product = await Product.findByIdAndDelete(id);
+    await deleteImage(product.image.public_id);
     const products = await Product.find()
     res.status(200).json({
       success:true,
       products,
       msg:'Product deleted successfully'
-    })
+    });
   }
   catch(err){
     return next(new Error(err.message))

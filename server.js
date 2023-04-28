@@ -2,7 +2,7 @@ import app from "./app.js";
 import dotenv from "dotenv";
 import { connectDB } from "./db/connectDB.js";
 import { v2   as cloudinary} from "cloudinary";
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 //Config
 if(process.env.NODE_ENV !== "PRODUCTION"){

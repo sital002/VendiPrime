@@ -27,14 +27,10 @@ app.use("/api/v1/cart",  cartRoute);
 app.use("/api/v1/orders", orderRoute);
 
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const filePath = path.resolve("build","index.html")
-console.log(path.isAbsolute(filePath))
-console.log(filePath)
 app.get("/*",(req,res)=>{
   res.sendFile(filePath)
 })
-// res.sendFile("./build/index.html");
 
 
 app.use((err, req, res, next) => {

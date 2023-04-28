@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import { v2 as cloudinary } from "cloudinary";
 import { User } from "../db/models/UserModel.js";
-import { uploadImage } from "../utils/cloudinary.js";
+import { deleteImage, uploadImage } from "../utils/cloudinary.js";
 import generateToken from "../utils/generateToken.js";
 
 export const loginUser = async (req, res, next) => {
@@ -75,6 +75,7 @@ export const updateUserProfile = async (req, res, next) => {
   try {
     const user = await User.findById(req.user.id).populate("orders");
     if(req.file){
+       await deleteImage(user.profile.public_id);
       const result = await uploadImage(req.file);
       if (!result) return next(new Error("Something went wrong"));
       user.profile.url = (await result).url;
