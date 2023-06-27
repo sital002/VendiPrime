@@ -4,9 +4,9 @@ Vendi Prime is an ecommerce platform developed using the MERN stack, enabling us
 
 
 ### Run the project locally:
-git clone https://github.com/sital002/Vendi_Prime /
-cd Vendi_Prime /
-npm i /
+git clone https://github.com/sital002/Vendi_Prime \
+cd Vendi_Prime \
+npm i \
 npm run dev 
 
 ### Profile Page
