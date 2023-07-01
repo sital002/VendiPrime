@@ -1,5 +1,6 @@
-# Vendi_Prime
+# Vendi Prime | Ecommerce Platform
 Vendi Prime is an ecommerce platform developed using the MERN stack, enabling users to browse a wide range of products, add items to their cart, and securely place orders for a seamless online shopping experience.
+### Tech Stack : HTML, CSS, JavaScript, React.js, Redux Toolkit, Node.js, Express.js, MongoDB.
 
 
 
