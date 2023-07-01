@@ -10,8 +10,10 @@ npm i \
 npm run dev 
 
 ### Homepage
-![Screenshot 2023-06-27 141634](https://github.com/sital002/Vendi_Prime/assets/93700622/65df44ca-b14a-404c-9071-ffc67675efc6)
+![image](https://github.com/sital002/Vendi_Prime/assets/93700622/77947117-9c99-4bc5-b9fc-c86e971400b4)
+
 ![Screenshot 2023-06-27 141728](https://github.com/sital002/Vendi_Prime/assets/93700622/26498be0-5338-4024-b27a-8d951178d471)
+
 ![Screenshot 2023-06-27 141700](https://github.com/sital002/Vendi_Prime/assets/93700622/e40a8918-8ae0-4e85-ac58-05e5d2135962)
 
 
@@ -33,8 +35,10 @@ npm run dev
 ![Screenshot 2023-06-27 133114](https://github.com/sital002/Vendi_Prime/assets/93700622/50b256df-0f1a-41c1-ad0a-ef1d62fe7e95)
 
 ### Sign In and Sign Up
-![image](https://github.com/sital002/Vendi_Prime/assets/93700622/bd24e59f-4ce5-4056-9e7d-43df5651cc39)
-![image](https://github.com/sital002/Vendi_Prime/assets/93700622/fba7f576-5bf8-486a-a6ef-bc3286ed035a)
+![image](https://github.com/sital002/Vendi_Prime/assets/93700622/f1d775e9-3b71-4a45-97e0-86d3a2ae4516)
+
+![image](https://github.com/sital002/Vendi_Prime/assets/93700622/4c4dcc02-2927-4c02-98da-9c2c9ada94a4)
+
 
 
 
